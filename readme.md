@@ -2,6 +2,7 @@
 
 **10x-Tool-Calls** is a simple rules setup designed for the **Cursor IDE**, **Windsurf**, or any other agent-based coding assistant that supports tool calls. It helps you get the **maximum value out of your monthly tool call allowance** by running your tasks in a loop with user input—without restarting the chat every time.
 
+Note : This only works with Agent Mode
 ---
 
 ## ✅ What It Does
@@ -42,7 +43,7 @@ This script is used to collect user input between tasks.
 
 ### 2. Copy `rules.md` into your IDE
 
-* Open your IDE's rule configuration (e.g., in Cursor: .cursorrules file or project rules)
+* Open your IDE's rule configuration (e.g., in Cursor: .cursorrules file or project rules - set to “always”)
 * Paste in the rules from `rules.md` (included in this repo)
 
 That’s it! The system is now set to run in an interactive loop.
