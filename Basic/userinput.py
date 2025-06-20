@@ -33,3 +33,5 @@ submit_button.pack()
 
 # Start the Tkinter event loop - This makes the window appear
 window.mainloop()
+
+print("User Input:", user_input)
