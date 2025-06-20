@@ -6,16 +6,7 @@ alwaysApply: true
 
 ### ✅ Task: Interactive Task Loop with User Feedback
 
-1. **Check if `userinput.py` exists** in the root directory.
-
-   * If it doesn't exist, create it with the following content:
-
-     ```python
-     # userinput.py
-     user_input = input("prompt: ")
-     ```
-
-2. **Main Workflow**:
+1. **Main Workflow**:
 
    * Perform your assigned tasks.
 
@@ -32,6 +23,6 @@ alwaysApply: true
 
    * Repeat the process.
 
-3. **Exit Condition**:
+2. **Exit Condition**:
 
    * If the user enters `"stop"` when prompted, exit the loop and terminate the process.
